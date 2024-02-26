@@ -12,7 +12,7 @@ MySQL cheatsheet()
 MySQL Performance: How To Leverage MySQL Database Indexing
 Stored Procedure()
 Triggers() 
-Views
+Views()
 Functions and Operators
 Trigger Syntax and Examples
 CREATE TABLE Statement
