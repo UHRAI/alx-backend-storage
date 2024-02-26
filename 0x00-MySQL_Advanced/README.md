@@ -16,7 +16,7 @@ Views()
 Functions and Operators()
 Trigger Syntax and Examples()
 CREATE TABLE Statement()
-CREATE PROCEDURE and CREATE FUNCTION Statements
+CREATE PROCEDURE and CREATE FUNCTION Statements()
 CREATE INDEX Statement
 CREATE VIEW Statement
 Learning Objectives
