@@ -11,7 +11,7 @@ Read or watch:
 MySQL cheatsheet()
 MySQL Performance: How To Leverage MySQL Database Indexing
 Stored Procedure()
-Triggers
+Triggers()
 Views
 Functions and Operators
 Trigger Syntax and Examples
