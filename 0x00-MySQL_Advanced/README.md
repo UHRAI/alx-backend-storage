@@ -10,7 +10,7 @@ Read or watch:
 
 MySQL cheatsheet()
 MySQL Performance: How To Leverage MySQL Database Indexing
-Stored Procedure
+Stored Procedure()
 Triggers
 Views
 Functions and Operators
