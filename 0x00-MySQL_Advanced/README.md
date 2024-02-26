@@ -4,7 +4,7 @@
 # Concepts
 For this project, we expect you to look at this concept:
 
-- Advanced SQL ( )
+- Advanced SQL ()
 # Resources
 Read or watch:
 
