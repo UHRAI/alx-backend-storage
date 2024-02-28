@@ -1,7 +1,7 @@
 #`0x02. Redis basic`
 `Back-end`: `Redis`
 
-# Resources 
+# Resources
 ## Read or watch:
 
 - Redis Crash Course Tutorial
