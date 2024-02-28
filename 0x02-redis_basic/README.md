@@ -3,7 +3,7 @@
 
 # Resources  
 ## Read or watch:   
-
+ 
 - Redis Crash Course Tutorial
 - Remdis commands
 - Redis python client
