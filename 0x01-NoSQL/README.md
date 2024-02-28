@@ -353,9 +353,9 @@ guillaume@ubuntu:~/0x01$
 ```
 Repo:
 
-GitHub repository: alx-backend-storage
-Directory: 0x01-NoSQL
-File: 0-list_databases
+- GitHub repository: alx-backend-storage
+- Directory: 0x01-NoSQL
+- File: 0-list_databases
    
 1. Create a database
 mandatory
