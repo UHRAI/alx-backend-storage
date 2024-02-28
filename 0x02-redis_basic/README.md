@@ -2,7 +2,7 @@
 `Back-end`: `Redis`
 
 # Resources  
-## Read or watch: 
+## Read or watch:  
 
 - Redis Crash Course Tutorial
 - Remdis commands
