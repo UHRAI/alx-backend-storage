@@ -413,7 +413,8 @@ Write a SQL script that creates a stored procedure AddBonus that adds a new corr
 	- `user_id`, a `users.id` value (you can assume `user_id` is linked to an existing `users`)
 	- `project_name`, a new or already exists `projects` - if no `projects.name` found in the table, you should create it
 	- `score`, the score value for the correction
-**Context:** *Write code in SQL is a nice level up!*
+**Context:** Write code in SQL is a nice level up!
+
 ```
 bob@dylan:~$ cat 6-init.sql
 -- Initial
@@ -503,7 +504,7 @@ user_id project_id  score
 2   2   73
 --
 --
---
+__
 --
 id  name
 1   C is fun
@@ -528,13 +529,14 @@ bob@dylan:~$
 - File: 6-bonus.sql
    
 7. Average score
-mandatory
-Write a SQL script that creates a stored procedure ComputeAverageScoreForUser that computes and store the average score for a student. Note: An average score can be a decimal
+`mandatory`
 
-Requirements:
+Write a SQL script that creates a stored procedure `ComputeAverageScoreForUser` that computes and store the average score for a student. Note: An average score can be a decimal
 
-Procedure ComputeAverageScoreForUser is taking 1 input:
-user_id, a users.id value (you can assume user_id is linked to an existing users)
+**Requirements:**
+
+- Procedure `ComputeAverageScoreForUser` is taking 1 input:
+	* `user_id`, a `users.id` value (you can assume `user_id` is linked to an existing `users`)
 ```
 bob@dylan:~$ cat 7-init.sql
 -- Initial
@@ -622,14 +624,15 @@ id  name    average_score
 2   Jeanne  82
 bob@dylan:~$ 
 ```
-Repo:
+**Repo:**
 
-GitHub repository: alx-backend-storage
-Directory: 0x00-MySQL_Advanced
-File: 7-average_score.sql
+- GitHub repository: alx-backend-storage
+- Directory: 0x00-MySQL_Advanced
+- File: 7-average_score.sql
    
 8. Optimize simple search
-mandatory
+`mandatory`
+
 Write a SQL script that creates an index idx_name_first on the table names and the first letter of name.
 
 Requirements:
