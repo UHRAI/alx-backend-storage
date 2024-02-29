@@ -633,13 +633,13 @@ bob@dylan:~$
 8. Optimize simple search
 `mandatory`
 
-Write a SQL script that creates an index idx_name_first on the table names and the first letter of name.
+Write a SQL script that creates an index `idx_name_first` on the table `names` and the first letter of `name`.
 
-Requirements:
+**Requirements:**
 
-Import this table dump: names.sql.zip
-Only the first letter of name must be indexed
-Context: Index is not the solution for any performance issue, but well used, it’s really powerful!
+	- Import this table dump: names.sql.zip
+	- Only the first letter of name must be indexed
+**Context:** Index is not the solution for any performance issue, but well used, it’s really powerful!
 ```
 bob@dylan:~$ cat names.sql | mysql -uroot -p holberton
 Enter password: 
@@ -682,14 +682,15 @@ mysql> exit
 bye
 bob@dylan:~$ 
 ```
-Repo:
+**Repo:**
 
-GitHub repository: alx-backend-storage
-Directory: 0x00-MySQL_Advanced
-File: 8-index_my_names.sql
+- GitHub repository: alx-backend-storage
+- Directory: 0x00-MySQL_Advanced
+- File: 8-index_my_names.sql
    
 9. Optimize search and score
-mandatory
+`mandatory`
+
 Write a SQL script that creates an index idx_name_first_score on the table names and the first letter of name and the score.
 
 Requirements:
